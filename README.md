@@ -55,3 +55,23 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+
+
+This project is structured following cookie cutter template.
+
+It is runned using virtual environment by pyenv and poetry.
+Below is the dependencies:
+
+python = "^3.9"
+pandas = "2.0.1"
+jupyterlab = "3.6.3"
+scikit-learn = "1.2.2"
+matplotlib = "3.7.2"
+
+
+all models artefacts are stored in models, and customized function stored in src/models
+
+I put 2 customized function 1 for pop target data and the other one for splitting training and validation data. The splitting training was used in experiment C
+
